@@ -1600,7 +1600,7 @@ function shot(){
   const c=document.createElement('canvas'); c.width=v.videoWidth; c.height=v.videoHeight;
   c.getContext('2d').drawImage(v,0,0);
   c.toBlob(b=>{const a=document.createElement('a');a.href=URL.createObjectURL(b);
-    a.download='jisr-'+Date.now()+'.png';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),5000);toast('حُفظت اللقطة');});
+    a.download='senpai-'+Date.now()+'.png';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),5000);toast('حُفظت اللقطة');});
 }
 function toggleRec(){
   if(!CAP.rec){ toast('التسجيل غير مدعوم هنا','err'); return; }
@@ -1614,7 +1614,7 @@ function toggleRec(){
   S.rec.onstop=()=>{
     const blob=new Blob(S.chunks,{type:mime||'video/webm'});
     const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
-    a.download='jisr-'+Date.now()+(mime.indexOf('mp4')>-1?'.mp4':'.webm'); a.click();
+    a.download='senpai-'+Date.now()+(mime.indexOf('mp4')>-1?'.mp4':'.webm'); a.click();
     setTimeout(()=>URL.revokeObjectURL(a.href),8000);
     S.rec=null; $('#tRec').setAttribute('aria-pressed','false'); $('#chipRec').hidden=true; toast('حُفظ المقطع');
   };
