@@ -1,9 +1,9 @@
 # شير سينباي — مشاركة الشاشة المباشرة برمز واحد
 
-[![الحالة: نشط](https://img.shields.io/badge/الحالة-نشط-22863a)]()
-[![البناء: ملف واحد](https://img.shields.io/badge/البناء-ملف%20واحد-1f6feb)]()
-[![النقل: مشفر](https://img.shields.io/badge/النقل-P2P%20مشفر-9f37aa)]()
-[![الترخيص: MIT](https://img.shields.io/badge/ترخيص-MIT-blue)](./LICENSE)
+[![Status: Active](https://img.shields.io/badge/Status-Active-22863a)]()
+[![Build: Single file](https://img.shields.io/badge/Build-Single--file-1f6feb)]()
+[![Transport: P2P encrypted](https://img.shields.io/badge/Transport-P2P%20Encrypted-9f37aa)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](./LICENSE)
 
 > اعرض شاشتك، شارك ملفًا، أو افتح غرفة صوتية — برمز واحد من ٦ خانات، على أي جهاز، من أي شبكة، بلا تثبيت ولا تسجيل ولا حساب.
 
